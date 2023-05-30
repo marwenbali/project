@@ -38,7 +38,7 @@ body{
     
 }
 .paragraph1-style{
-    color:#9d9570;
+    color: white;
     margin-top: 85px;
     margin-bottom: 350px;
     font-family: Robot Mono;
@@ -184,10 +184,45 @@ body{
 .box-size2{
     height: 375px;
     width: 270px;
-}
-.box-size2 img{
-    border-radius: 7px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 7px;
     filter: brightness(0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#haircut-img{
+    background-image: url('haircut7.png');
+}
+#beard-img{
+    background-image: url('haircut8.png');
+}
+#shaving-img{
+    background-image: url('shaving.png');
+}
+#razer-blade-img{
+    background-image: url('razer-blade.png');
+}
+.button-layout{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 15px 40px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 2px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: open sans;
+
+}
+.button-layout:hover{
+    background-color:#9d9570 ;
+    cursor: pointer;
+    color: white;
 }
 
 
@@ -200,7 +235,8 @@ body{
 /*Part 4*/
 .back-color4{
     height: 930px;
-    background-color: black;
+    background-image: url('last-theme.png');
+
 }
 
 
