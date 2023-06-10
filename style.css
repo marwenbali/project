@@ -210,16 +210,16 @@ body{
     align-items: center;
 }
 #haircut-img{
-    background-image: url('haircut7.png');
+    background-image: url('./images/haircut7.png');
 }
 #beard-img{
-    background-image: url('haircut8.png');
+    background-image: url('./images/haircut8.png');
 }
 #shaving-img{
-    background-image: url('shaving.png');
+    background-image: url('./images/shaving.png');
 }
 #razer-blade-img{
-    background-image: url('razer-blade.png');
+    background-image: url('./images/razer-blade.png');
 }
 .button-layout{
     display: inline-block;
@@ -254,7 +254,7 @@ body{
 .back-color4{
     
     height: 900px;
-    background-image: url('last-theme.png');
+    background-image: url('./images/last-theme.png');
     background-position: 50% 50%;
 }
 .sec-layout{
